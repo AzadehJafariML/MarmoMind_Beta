@@ -8,9 +8,6 @@ Autonomous multi agent AI system for fMRI data processing in LangGraph: Architec
 **MarmoMind_Alpha** was the **feasibility study** which was implemented using **Claude Agent SDK**.
 The current version, **MarmoMind_Beta**, handles the entire data processing workflow from raw scans through quality control, logging, knowledge retrieval (RAG: Marmossits), and analysis pipeline  using a  supervisor agent routing work to five specialist agents, under human-in-the-loop guardrails.
 
-<p align="center">
-  <img src="MarmoMind_LG_Arch.png" alt="MarmoMind architecture" width="100%">
-</p>
 
 ## Design principle
 The LLM reasons, routes, and orchestrates; deterministic, validated python code does the mechanical steps. 
